@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>comment app</title>
+<!-- Animate.css-->
+  <link rel="stylesheet" href="css/animate.css">
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<!-- main css -->
+<link rel="stylesheet" href="css/main.css">
+<!-- favicon -->
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+    	<div id="date" class="animated pulse"></div>
+    	<div class="title" alt="image">
+    		<img src="img/title.png" width="650" height="400">
+    	</div>
+	    <form>
+	  		<div class="form-group">
+	    		<input id="username" class="form-control" type="username"  placeholder="username" >
+	  		</div>
+	  
+	  		<div class="form-group">
+	  			<textarea id="comment" class="form-control" placeholder="comment" rows="6"></textarea>
+	 		 </div>
+	 		 <div class="form-group">
+  				<button type="button" class="btn btn-primary btn-lg" onclick="getInfo()">Submit</button>
+  			 </div>  
+  		</form>
+  			<div class="sign2">
+  				    <img src="img/sign2.png" width="300" height="550">
+  			</div>
+  			 <div>
+			 <ul id="list"></ul>
+			 </div>	 
+	</div>
+</div>
+<script src="js/main.js">
+	
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,113 @@
+body{
+	font-family:"open sans", "sans-serif";
+	background-image: url("../images/background.jpg");
+}
+#greeting{
+	font-family:"open sans", "sans-serif";
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	font-size: 18px;
+	color:white;
+	padding-top:16.5%;
+	text-transform: uppercase;
+	padding-left: 45.5%;
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+form{
+	text-align: center;
+}
+img{
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.input{
+	background: white;
+	padding:11px;
+	padding-left:6.5%;
+	padding-right:6.5%;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+}
+button{
+	padding:11px;
+	border-radius:none;
+	background-color:#2C4068;
+	color: white;
+	border:none;
+	text-transform: uppercase;
+	padding-left:1%;
+	padding-right: 1%;
+}
+h4{
+	text-align: center;
+	text-transform: uppercase;
+	color:#2C4068;
+	display:block;
+	font-size: 35px;
+	font-height: 10%;
+}
+#image{
+	display: inline-block;
+	float: left;
+	padding-left:30%;
+	padding-top: 5%;
+	padding-right: 1%;
+}
+#name{
+	font-size: 2em;
+	text-transform: uppercase;
+	color:#2C4068;
+	padding-top:7.5%;
+	text-align:left;
+}
+#description{
+	text-transform:capitalize;
+	color:#2C4068;
+	width: 70%;
+	display: block;
+}
+.des{
+
+}
+.img{
+	width: 180px;
+	height: 180px;
+}
+#wrong{
+	text-align: center;
+	color:#2C4068;
+	font-size: 35px;
+}
+@media (max-width: 1669px){
+	#greeting{
+	padding-top: 18.5%;
+}
+@media (max-width: 1491px){
+	#greeting{
+	padding-top: 20.5%;
+}
+@media (max-width: 1491px){
+	#greeting{
+	padding-top: 23.5%;
+}
+@media (max-width: 1170px){
+	#greeting{
+	padding-top: 26.5%;
+}
+@media (max-width: 1140px){
+	#greeting{
+	padding-top: 29.5%;
+}
+@media (max-width: 990px){
+#greeting{
+	padding-top: 31.5%;
+	padding-left: 42.5%;
+}	
+}
